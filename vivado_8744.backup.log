@@ -1,0 +1,285 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Dec 28 08:51:15 2018
+# Process ID: 8744
+# Current directory: C:/Users/logos/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15724 C:\Users\logos\project_1\project_1.xpr
+# Log file: C:/Users/logos/project_1/vivado.log
+# Journal file: C:/Users/logos/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/logos/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'C16' is locked:
+* IP 'C16' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C16' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C16' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C33' is locked:
+* IP 'C33' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C33' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C33' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C41' is locked:
+* IP 'C41' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C41' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C41' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C3' is locked:
+* IP 'C3' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C3' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C3' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C25' is locked:
+* IP 'C25' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C25' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C25' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C15' is locked:
+* IP 'C15' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C15' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C15' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C4' is locked:
+* IP 'C4' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C4' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C4' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C32' is locked:
+* IP 'C32' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C32' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C32' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C42' is locked:
+* IP 'C42' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C42' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C42' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C50' is locked:
+* IP 'C50' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C50' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C50' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C24' is locked:
+* IP 'C24' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C24' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C24' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C35' is locked:
+* IP 'C35' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C35' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C35' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C52' is locked:
+* IP 'C52' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C52' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C52' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C22' is locked:
+* IP 'C22' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C22' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C22' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C19' is locked:
+* IP 'C19' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C19' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C19' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C6' is locked:
+* IP 'C6' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C6' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C6' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C49' is locked:
+* IP 'C49' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C49' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C49' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C36' is locked:
+* IP 'C36' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C36' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C36' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C18' is locked:
+* IP 'C18' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C18' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C18' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C10' is locked:
+* IP 'C10' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C10' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C10' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C23' is locked:
+* IP 'C23' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C23' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C23' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C51' is locked:
+* IP 'C51' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C51' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C51' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C40' is locked:
+* IP 'C40' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C40' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C40' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C21' is locked:
+* IP 'C21' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C21' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C21' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C34' is locked:
+* IP 'C34' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C34' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C34' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C17' is locked:
+* IP 'C17' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C17' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C17' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C47' is locked:
+* IP 'C47' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C47' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C47' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C48' is locked:
+* IP 'C48' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C48' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C48' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C5' is locked:
+* IP 'C5' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C5' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C5' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C8' is locked:
+* IP 'C8' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C8' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C8' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C46' is locked:
+* IP 'C46' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C46' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C46' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C29' is locked:
+* IP 'C29' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C29' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C29' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C12' is locked:
+* IP 'C12' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C12' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C12' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C38' is locked:
+* IP 'C38' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C38' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C38' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C28' is locked:
+* IP 'C28' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C28' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C28' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C45' is locked:
+* IP 'C45' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C45' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C45' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C7' is locked:
+* IP 'C7' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C7' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C7' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C20' is locked:
+* IP 'C20' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C20' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C20' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C37' is locked:
+* IP 'C37' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C37' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C37' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C11' is locked:
+* IP 'C11' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C11' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C11' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C1' is locked:
+* IP 'C1' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C1' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C1' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C27' is locked:
+* IP 'C27' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C27' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C27' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C30' is locked:
+* IP 'C30' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C30' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C30' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C44' is locked:
+* IP 'C44' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C44' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C44' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C14' is locked:
+* IP 'C14' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C14' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C14' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C2' is locked:
+* IP 'C2' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C2' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C2' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C9' is locked:
+* IP 'C9' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C9' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C9' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C13' is locked:
+* IP 'C13' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C13' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C13' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C31' is locked:
+* IP 'C31' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C31' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C31' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C43' is locked:
+* IP 'C43' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C43' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C43' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C39' is locked:
+* IP 'C39' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C39' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C39' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'C26' is locked:
+* IP 'C26' shares a common output directory with other IP. It is recommended that each IP be placed in its own directory.
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'C26' has a newer major version in the IP Catalog.
+* Current project part 'xc7k160tffg676-2L' and the part 'xc7k160tffg676-1' used to customize the IP 'C26' do not match.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:49 . Memory (MB): peak = 797.430 ; gain = 165.133
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See C:/Users/logos/project_1/vivado_pid8744.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See C:/Users/logos/project_1/vivado_pid8744.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See C:/Users/logos/project_1/vivado_pid8744.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.NullPointerException (See C:/Users/logos/project_1/vivado_pid8744.debug)
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 28 08:53:37 2018...

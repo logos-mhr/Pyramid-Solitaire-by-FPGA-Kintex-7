@@ -1,0 +1,21 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Dec 26 14:26:16 2018
+| Host         : logos-xps running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'crazy'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of crazy from xilinx.com:ip:dist_mem_gen:7.2 to xilinx.com:ip:dist_mem_gen:8.0 (Rev. 12)
+
+2. Upgrade messages
+-------------------
+
+Renamed parameter component_name to Component_Name
+

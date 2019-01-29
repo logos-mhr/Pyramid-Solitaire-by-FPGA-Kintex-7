@@ -1,0 +1,2 @@
+C9.v,verilog,xil_defaultlib,../../../../project_1.srcs/sources_1/ip/C9/sim/C9.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

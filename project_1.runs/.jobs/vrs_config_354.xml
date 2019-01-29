@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="C1_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C2_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C3_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C21_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C22_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C23_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C24_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C24_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C51_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C51_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C52_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C52_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="C1_synth_1"/>
+		<Parent Id="C2_synth_1"/>
+		<Parent Id="C3_synth_1"/>
+		<Parent Id="C21_synth_1"/>
+		<Parent Id="C22_synth_1"/>
+		<Parent Id="C23_synth_1"/>
+		<Parent Id="C24_synth_1"/>
+		<Parent Id="C51_synth_1"/>
+		<Parent Id="C52_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="C1_synth_1"/>
+		<Parent Id="C2_synth_1"/>
+		<Parent Id="C3_synth_1"/>
+		<Parent Id="C21_synth_1"/>
+		<Parent Id="C22_synth_1"/>
+		<Parent Id="C23_synth_1"/>
+		<Parent Id="C24_synth_1"/>
+		<Parent Id="C51_synth_1"/>
+		<Parent Id="C52_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

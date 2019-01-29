@@ -1,0 +1,2 @@
+victoryP.v,verilog,xil_defaultlib,../../../../project_1.srcs/sources_1/ip/victoryP/sim/victoryP.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

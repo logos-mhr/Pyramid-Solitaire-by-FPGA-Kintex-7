@@ -1,0 +1,2 @@
+smallVictory.v,verilog,xil_defaultlib,../../../../project_1.srcs/sources_1/ip/smallVictory/sim/smallVictory.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

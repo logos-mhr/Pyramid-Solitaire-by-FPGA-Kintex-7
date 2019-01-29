@@ -1,0 +1,2 @@
+first.v,verilog,xil_defaultlib,../../../../project_1.srcs/sources_1/ip/first/sim/first.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

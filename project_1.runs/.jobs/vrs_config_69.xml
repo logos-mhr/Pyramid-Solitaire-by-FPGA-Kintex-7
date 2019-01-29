@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="C24_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C24_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C25_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C25_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C28_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C28_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C29_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C29_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C30_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C30_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C31_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C31_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C32_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C33_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C33_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C34_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C34_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C39_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C39_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C50_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C50_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C51_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C51_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C52_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C52_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="C35_synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/C35_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/logos/project_1/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="C24_synth_1"/>
+		<Parent Id="C25_synth_1"/>
+		<Parent Id="C28_synth_1"/>
+		<Parent Id="C29_synth_1"/>
+		<Parent Id="C30_synth_1"/>
+		<Parent Id="C31_synth_1"/>
+		<Parent Id="C32_synth_1"/>
+		<Parent Id="C33_synth_1"/>
+		<Parent Id="C34_synth_1"/>
+		<Parent Id="C39_synth_1"/>
+		<Parent Id="C50_synth_1"/>
+		<Parent Id="C51_synth_1"/>
+		<Parent Id="C52_synth_1"/>
+		<Parent Id="C35_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

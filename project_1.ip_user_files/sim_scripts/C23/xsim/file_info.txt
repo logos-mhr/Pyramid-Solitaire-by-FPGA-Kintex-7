@@ -1,0 +1,2 @@
+C23.v,verilog,xil_defaultlib,../../../../project_1.srcs/sources_1/ip/C23/sim/C23.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

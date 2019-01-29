@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k160tffg676-2L" LaunchTime="1547192689">
+  <File Type="PA-TCL" Name="Top.tcl"/>
+  <File Type="REPORTS-TCL" Name="Top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Top.vds"/>
+  <File Type="RDS-UTIL" Name="Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Top.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/logos/Desktop/2333.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/2333.coe"/>
+        <Attr Name="ImportTime" Val="1545647693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/logos/Desktop/Crazymhr.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/Crazymhr.coe"/>
+        <Attr Name="ImportTime" Val="1545652787"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Seg7Decode.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Seg7Decode.v"/>
+        <Attr Name="ImportTime" Val="1461064728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Seg7Remap.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Seg7Remap.v"/>
+        <Attr Name="ImportTime" Val="1460528078"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/SegmentDecoder.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/SegmentDecoder.v"/>
+        <Attr Name="ImportTime" Val="1467262834"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/vgac.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/vgac.v"/>
+        <Attr Name="ImportTime" Val="1479985694"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Top.v">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Top.v"/>
+        <Attr Name="ImportTime" Val="1545653754"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Users/logos/project_1/import_ise_summary.txt">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/import_ise_summary.txt"/>
+        <Attr Name="ImportTime" Val="1545804983"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Users/logos/Desktop/Crazymhr.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/Crazymhr.coe"/>
+        <Attr Name="ImportTime" Val="1545808008"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ip_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/active.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/16.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/16.coe"/>
+        <Attr Name="ImportTime" Val="1546338084"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/33.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/33.coe"/>
+        <Attr Name="ImportTime" Val="1545904692"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/41.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/41.coe"/>
+        <Attr Name="ImportTime" Val="1545906801"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/3.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/3.coe"/>
+        <Attr Name="ImportTime" Val="1545899956"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/25.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/25.coe"/>
+        <Attr Name="ImportTime" Val="1545902055"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/15.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/15.coe"/>
+        <Attr Name="ImportTime" Val="1545902019"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/4.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/4.coe"/>
+        <Attr Name="ImportTime" Val="1545900189"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/32.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/32.coe"/>
+        <Attr Name="ImportTime" Val="1545904689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/42.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/42.coe"/>
+        <Attr Name="ImportTime" Val="1545906804"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/50.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/50.coe"/>
+        <Attr Name="ImportTime" Val="1545906832"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/24.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/24.coe"/>
+        <Attr Name="ImportTime" Val="1545902051"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/35.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/35.coe"/>
+        <Attr Name="ImportTime" Val="1545904698"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/52.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/52.coe"/>
+        <Attr Name="ImportTime" Val="1545906839"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/22.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/22.coe"/>
+        <Attr Name="ImportTime" Val="1545902044"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/19.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/19.coe"/>
+        <Attr Name="ImportTime" Val="1545902034"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/6.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/6.coe"/>
+        <Attr Name="ImportTime" Val="1545900424"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/49.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/49.coe"/>
+        <Attr Name="ImportTime" Val="1545906828"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/36.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/36.coe"/>
+        <Attr Name="ImportTime" Val="1545904702"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/18.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/18.coe"/>
+        <Attr Name="ImportTime" Val="1545902031"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/10.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/10.coe"/>
+        <Attr Name="ImportTime" Val="1545900784"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/23.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/23.coe"/>
+        <Attr Name="ImportTime" Val="1545902047"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/51.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/51.coe"/>
+        <Attr Name="ImportTime" Val="1545906836"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/40.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/40.coe"/>
+        <Attr Name="ImportTime" Val="1545906797"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/21.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/21.coe"/>
+        <Attr Name="ImportTime" Val="1545902040"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/34.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/34.coe"/>
+        <Attr Name="ImportTime" Val="1545904695"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/17.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/17.coe"/>
+        <Attr Name="ImportTime" Val="1545902027"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/47.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/47.coe"/>
+        <Attr Name="ImportTime" Val="1545906820"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/48.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/48.coe"/>
+        <Attr Name="ImportTime" Val="1545906825"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/5.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/5.coe"/>
+        <Attr Name="ImportTime" Val="1545900193"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/46.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/46.coe"/>
+        <Attr Name="ImportTime" Val="1545906816"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/29.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/29.coe"/>
+        <Attr Name="ImportTime" Val="1545904678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/12.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/12.coe"/>
+        <Attr Name="ImportTime" Val="1545900914"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/38.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/38.coe"/>
+        <Attr Name="ImportTime" Val="1545904708"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/28.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/28.coe"/>
+        <Attr Name="ImportTime" Val="1545904674"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/45.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/45.coe"/>
+        <Attr Name="ImportTime" Val="1545906813"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/7.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/7.coe"/>
+        <Attr Name="ImportTime" Val="1545900569"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/20.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/20.coe"/>
+        <Attr Name="ImportTime" Val="1545902037"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/37.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/37.coe"/>
+        <Attr Name="ImportTime" Val="1545904705"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/11.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/11.coe"/>
+        <Attr Name="ImportTime" Val="1545900911"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/1.coe"/>
+        <Attr Name="ImportTime" Val="1545899633"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/27.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/27.coe"/>
+        <Attr Name="ImportTime" Val="1545904671"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/30.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/30.coe"/>
+        <Attr Name="ImportTime" Val="1545904682"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/44.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/44.coe"/>
+        <Attr Name="ImportTime" Val="1545906809"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/14.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/14.coe"/>
+        <Attr Name="ImportTime" Val="1545902015"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/2.coe"/>
+        <Attr Name="ImportTime" Val="1545899778"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/9.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/9.coe"/>
+        <Attr Name="ImportTime" Val="1545900780"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/13.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/13.coe"/>
+        <Attr Name="ImportTime" Val="1545901159"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/31.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/31.coe"/>
+        <Attr Name="ImportTime" Val="1545904685"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/43.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/43.coe"/>
+        <Attr Name="ImportTime" Val="1545906807"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/39.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/39.coe"/>
+        <Attr Name="ImportTime" Val="1545904717"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/26.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/26.coe"/>
+        <Attr Name="ImportTime" Val="1545902058"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/8.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/8.coe"/>
+        <Attr Name="ImportTime" Val="1545900572"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/nextSelect.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/state1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/state1.coe"/>
+        <Attr Name="ImportTime" Val="1546414903"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/lwcsb1.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/lwcsb1.coe"/>
+        <Attr Name="ImportTime" Val="1546417516"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/lwcsb2.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/lwcsb2.coe"/>
+        <Attr Name="ImportTime" Val="1546417425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/reference.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/reference.coe"/>
+        <Attr Name="ImportTime" Val="1546442810"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/FindPixel.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/FindPixel.v"/>
+        <Attr Name="ImportTime" Val="1546421738"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/Display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/Display.v"/>
+        <Attr Name="ImportTime" Val="1546421746"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MyMarquee/DispNum.vf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/14/MyMarquee/DispNum.vf"/>
+        <Attr Name="ImportTime" Val="1541572584"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MyMarquee/clkdiv.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/14/MyMarquee/clkdiv.v"/>
+        <Attr Name="ImportTime" Val="1541663921"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/top4/pbdebounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/11/top4/pbdebounce.v"/>
+        <Attr Name="ImportTime" Val="1541676904"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/Keyboard.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/Keyboard.v"/>
+        <Attr Name="ImportTime" Val="1546507152"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/Debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/Debounce.v"/>
+        <Attr Name="ImportTime" Val="1546507888"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/reference.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/5.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/6.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/7.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/8.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/9.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/10.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/11.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/12.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/13.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/14.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/15.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/16.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/17.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/18.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/19.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/20.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/21.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/22.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/23.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/24.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/25.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/26.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/27.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/28.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/29.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/30.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/31.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/32.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/33.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/34.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/36.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/37.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/38.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/39.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/40.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/41.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/42.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/43.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/44.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/45.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/46.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/47.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/48.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/49.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/50.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/51.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/52.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/35.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/state1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/lwcsb1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/lwcsb2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/keyActive.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/function2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/function1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/function0.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/Eliminate.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/Eliminate.v"/>
+        <Attr Name="ImportTime" Val="1546753867"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/PUKECCC/Bottom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../PUKECCC/Bottom.v"/>
+        <Attr Name="ImportTime" Val="1546856202"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/state2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/state3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/state_test3/state_test3.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VGAdemo/Seg7Device.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/VGAdemo/Seg7Device.v"/>
+        <Attr Name="ImportTime" Val="1467650582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VGAdemo/ShiftReg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../OneDrive/FPGA/VGAdemo/ShiftReg.v"/>
+        <Attr Name="ImportTime" Val="1460005126"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/state4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/max_test12.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/start12.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/fail12.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/victory12.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/state5.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/C19_1/C19.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/smallFail12.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../PUKECCC/smallVictory12.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/test_edc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="C9"/>
+  <BlockFileSet Type="BlockSrcs" Name="startP"/>
+  <BlockFileSet Type="BlockSrcs" Name="C1"/>
+  <BlockFileSet Type="BlockSrcs" Name="C50"/>
+  <BlockFileSet Type="BlockSrcs" Name="PICTURE"/>
+  <BlockFileSet Type="BlockSrcs" Name="C2"/>
+  <BlockFileSet Type="BlockSrcs" Name="first"/>
+  <BlockFileSet Type="BlockSrcs" Name="C3"/>
+  <BlockFileSet Type="BlockSrcs" Name="state_test2"/>
+  <BlockFileSet Type="BlockSrcs" Name="C5"/>
+  <BlockFileSet Type="BlockSrcs" Name="C6"/>
+  <BlockFileSet Type="BlockSrcs" Name="state_test4"/>
+  <BlockFileSet Type="BlockSrcs" Name="second"/>
+  <BlockFileSet Type="BlockSrcs" Name="C7"/>
+  <BlockFileSet Type="BlockSrcs" Name="state_test5"/>
+  <BlockFileSet Type="BlockSrcs" Name="C8"/>
+  <BlockFileSet Type="BlockSrcs" Name="C43"/>
+  <BlockFileSet Type="BlockSrcs" Name="C32"/>
+  <BlockFileSet Type="BlockSrcs" Name="C21"/>
+  <BlockFileSet Type="BlockSrcs" Name="C10"/>
+  <BlockFileSet Type="BlockSrcs" Name="C44"/>
+  <BlockFileSet Type="BlockSrcs" Name="C33"/>
+  <BlockFileSet Type="BlockSrcs" Name="C22"/>
+  <BlockFileSet Type="BlockSrcs" Name="C11"/>
+  <BlockFileSet Type="BlockSrcs" Name="C45"/>
+  <BlockFileSet Type="BlockSrcs" Name="C34"/>
+  <BlockFileSet Type="BlockSrcs" Name="C23"/>
+  <BlockFileSet Type="BlockSrcs" Name="C12"/>
+  <BlockFileSet Type="BlockSrcs" Name="C35"/>
+  <BlockFileSet Type="BlockSrcs" Name="C46"/>
+  <BlockFileSet Type="BlockSrcs" Name="C24"/>
+  <BlockFileSet Type="BlockSrcs" Name="smallFail"/>
+  <BlockFileSet Type="BlockSrcs" Name="C13"/>
+  <BlockFileSet Type="BlockSrcs" Name="C47"/>
+  <BlockFileSet Type="BlockSrcs" Name="C36"/>
+  <BlockFileSet Type="BlockSrcs" Name="C25"/>
+  <BlockFileSet Type="BlockSrcs" Name="C14"/>
+  <BlockFileSet Type="BlockSrcs" Name="C48"/>
+  <BlockFileSet Type="BlockSrcs" Name="C37"/>
+  <BlockFileSet Type="BlockSrcs" Name="C26"/>
+  <BlockFileSet Type="BlockSrcs" Name="C15"/>
+  <BlockFileSet Type="BlockSrcs" Name="C49"/>
+  <BlockFileSet Type="BlockSrcs" Name="C38"/>
+  <BlockFileSet Type="BlockSrcs" Name="C27"/>
+  <BlockFileSet Type="BlockSrcs" Name="C16"/>
+  <BlockFileSet Type="BlockSrcs" Name="C39"/>
+  <BlockFileSet Type="BlockSrcs" Name="C28"/>
+  <BlockFileSet Type="BlockSrcs" Name="C17"/>
+  <BlockFileSet Type="BlockSrcs" Name="C29"/>
+  <BlockFileSet Type="BlockSrcs" Name="C18"/>
+  <BlockFileSet Type="BlockSrcs" Name="C42"/>
+  <BlockFileSet Type="BlockSrcs" Name="C31"/>
+  <BlockFileSet Type="BlockSrcs" Name="C20"/>
+  <BlockFileSet Type="BlockSrcs" Name="state_test"/>
+  <BlockFileSet Type="BlockSrcs" Name="C52"/>
+  <BlockFileSet Type="BlockSrcs" Name="C41"/>
+  <BlockFileSet Type="BlockSrcs" Name="C30"/>
+  <BlockFileSet Type="BlockSrcs" Name="C51"/>
+  <BlockFileSet Type="BlockSrcs" Name="C40"/>
+  <BlockFileSet Type="BlockSrcs" Name="C4"/>
+  <BlockFileSet Type="BlockSrcs" Name="Reference"/>
+  <BlockFileSet Type="BlockSrcs" Name="function2"/>
+  <BlockFileSet Type="BlockSrcs" Name="function1"/>
+  <BlockFileSet Type="BlockSrcs" Name="function0"/>
+  <BlockFileSet Type="BlockSrcs" Name="failP"/>
+  <BlockFileSet Type="BlockSrcs" Name="victoryP"/>
+  <BlockFileSet Type="BlockSrcs" Name="smallVictory"/>
+</GenRun>

@@ -1,0 +1,80 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/ip/PICTURE/sim/PICTURE.v" \
+"../../../../project_1.srcs/sources_1/ip/C1/sim/C1.v" \
+"../../../../project_1.srcs/sources_1/ip/C2/sim/C2.v" \
+"../../../../project_1.srcs/sources_1/ip/C3_1/sim/C3.v" \
+"../../../../project_1.srcs/sources_1/ip/C5/sim/C5.v" \
+"../../../../project_1.srcs/sources_1/ip/C6_1/sim/C6.v" \
+"../../../../project_1.srcs/sources_1/ip/C7/sim/C7.v" \
+"../../../../project_1.srcs/sources_1/ip/C8/sim/C8.v" \
+"../../../../project_1.srcs/sources_1/ip/C9/sim/C9.v" \
+"../../../../project_1.srcs/sources_1/ip/C10/sim/C10.v" \
+"../../../../project_1.srcs/sources_1/ip/C11/sim/C11.v" \
+"../../../../project_1.srcs/sources_1/ip/C12/sim/C12.v" \
+"../../../../project_1.srcs/sources_1/ip/C13/sim/C13.v" \
+"../../../../project_1.srcs/sources_1/ip/C14/sim/C14.v" \
+"../../../../project_1.srcs/sources_1/ip/C15_1/sim/C15.v" \
+"../../../../project_1.srcs/sources_1/ip/C16_1/sim/C16.v" \
+"../../../../project_1.srcs/sources_1/ip/C17/sim/C17.v" \
+"../../../../project_1.srcs/sources_1/ip/C18/sim/C18.v" \
+"../../../../project_1.srcs/sources_1/ip/C19_1/sim/C19.v" \
+"../../../../project_1.srcs/sources_1/ip/C20/sim/C20.v" \
+"../../../../project_1.srcs/sources_1/ip/C21/sim/C21.v" \
+"../../../../project_1.srcs/sources_1/ip/C22_1/sim/C22.v" \
+"../../../../project_1.srcs/sources_1/ip/C23/sim/C23.v" \
+"../../../../project_1.srcs/sources_1/ip/C24_1/sim/C24.v" \
+"../../../../project_1.srcs/sources_1/ip/C25_1/sim/C25.v" \
+"../../../../project_1.srcs/sources_1/ip/C26/sim/C26.v" \
+"../../../../project_1.srcs/sources_1/ip/C27/sim/C27.v" \
+"../../../../project_1.srcs/sources_1/ip/C28/sim/C28.v" \
+"../../../../project_1.srcs/sources_1/ip/C29/sim/C29.v" \
+"../../../../project_1.srcs/sources_1/ip/C30/sim/C30.v" \
+"../../../../project_1.srcs/sources_1/ip/C31/sim/C31.v" \
+"../../../../project_1.srcs/sources_1/ip/C32_1/sim/C32.v" \
+"../../../../project_1.srcs/sources_1/ip/C33_1/sim/C33.v" \
+"../../../../project_1.srcs/sources_1/ip/C34/sim/C34.v" \
+"../../../../project_1.srcs/sources_1/ip/C36/sim/C36.v" \
+"../../../../project_1.srcs/sources_1/ip/C37/sim/C37.v" \
+"../../../../project_1.srcs/sources_1/ip/C38/sim/C38.v" \
+"../../../../project_1.srcs/sources_1/ip/C39_1/sim/C39.v" \
+"../../../../project_1.srcs/sources_1/ip/C40/sim/C40.v" \
+"../../../../project_1.srcs/sources_1/ip/C41_1/sim/C41.v" \
+"../../../../project_1.srcs/sources_1/ip/C42_1/sim/C42.v" \
+"../../../../project_1.srcs/sources_1/ip/C43/sim/C43.v" \
+"../../../../project_1.srcs/sources_1/ip/C44/sim/C44.v" \
+"../../../../project_1.srcs/sources_1/ip/C45/sim/C45.v" \
+"../../../../project_1.srcs/sources_1/ip/C46/sim/C46.v" \
+"../../../../project_1.srcs/sources_1/ip/C47/sim/C47.v" \
+"../../../../project_1.srcs/sources_1/ip/C48/sim/C48.v" \
+"../../../../project_1.srcs/sources_1/ip/C49_1/sim/C49.v" \
+"../../../../project_1.srcs/sources_1/ip/C50_1/sim/C50.v" \
+"../../../../project_1.srcs/sources_1/ip/C51/sim/C51.v" \
+"../../../../project_1.srcs/sources_1/ip/C52_1/sim/C52.v" \
+"../../../../project_1.srcs/sources_1/ip/C35_1/C35_sim_netlist.v" \
+"../../../../project_1.srcs/sources_1/ip/C4_1/sim/C4.v" \
+"../../../../project_1.srcs/sources_1/ip/state_test/sim/state_test.v" \
+"../../../../project_1.srcs/sources_1/ip/first/sim/first.v" \
+"../../../../project_1.srcs/sources_1/ip/second/sim/second.v" \
+"../../../../project_1.srcs/sources_1/ip/Reference_3/sim/Reference.v" \
+"../../../../project_1.srcs/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Seg7Decode.v" \
+"../../../../project_1.srcs/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Seg7Remap.v" \
+"../../../../project_1.srcs/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/SegmentDecoder.v" \
+"../../../../project_1.srcs/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/vgac.v" \
+"../../../../project_1.srcs/sources_1/imports/logos/OneDrive/FPGA/RSC-7-60-38-6-3-5-80/bigProgram2018/VGAdemo/Top.v" \
+"../../../../project_1.srcs/sources_1/new/ip_control.v" \
+"../../../../project_1.srcs/sources_1/new/active.v" \
+"../../../../project_1.srcs/sources_1/new/nextSelect.v" \
+"../../../../project_1.srcs/sources_1/imports/PUKECCC/FindPixel.v" \
+"../../../../project_1.srcs/sources_1/imports/PUKECCC/Display.v" \
+"../../../../project_1.srcs/sources_1/imports/MyMarquee/DispNum.vf" \
+"../../../../project_1.srcs/sources_1/imports/MyMarquee/clkdiv.v" \
+"../../../../project_1.srcs/sim_1/new/findpixel.v" \
+"../../../../project_1.srcs/sim_1/new/test.v" \
+"../../../../project_1.srcs/sim_1/new/blocktest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
