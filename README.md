@@ -1,4 +1,12 @@
-#Pyramid Solitaire by FPGA Xllinx Kintex 7.
+# Pyramid Solitaire by FPGA Xllinx Kintex 7.
+
+## Compatibility
+
+Fully functional with Vivado 2018.3 + Xllinx Kintex-7 xc7k160tffg676-2L
+
+## Interact
+
+left/right to change the selected card. space to select.
 
 ## Display
 
